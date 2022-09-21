@@ -34,6 +34,20 @@
     
     $c = 10; $d = 5; $result = $c + $d; echo $result;echo $_br;
     
+    $a = []; $a[] = 1; $a[] = 2; echo $a[0].' '; var_dump($a);echo $_br;
+    
+    if ( $a[0] == '01' ) {echo '+';} else {echo '-';}; echo $_br;
+    if ( $a[0] == '1' ) {echo '+';} else {echo '-';}; echo $_br;
+    if ( $a[0] == 1 ) {echo '+';} else {echo '-';}; echo $_br;
+    if ( $a[0] === 1 ) {echo '+';} else {echo '-';}; echo $_br;
+
+
+    switch ( $a[1] ) {
+	case 1: echo '1'; break;
+	case 2: echo '2'; break;
+	default: echo '...'; break;
+    }
+    
     echo $_br;
     
 ?>
