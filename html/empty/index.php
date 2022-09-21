@@ -13,7 +13,7 @@
     </head>
     <body>
 	<?php
-	    echo 'Приоритет математических операций в PHP<br>';
+	    echo 'It`s work!<br>';
 	?>
     </body>
 </html>
