@@ -3,7 +3,7 @@
     session_start();
 
     if (!empty($_SESSION)) {
-	echo $_SESSION['num1'] + $_SESSION['num2'];
+	echo $_SESSION['name'] . $_SESSION['fam'] . $_SESSION['fam2'];
     } else {
 	echo 'Session empty';
     }
