@@ -1,4 +1,3 @@
 <?php
-setcookie('test', 'abcde');
-echo 'Записал куку';
+    echo file_get_contents('test.txt');
 ?>
