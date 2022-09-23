@@ -2,15 +2,19 @@
     session_start();
     
     if (!empty($_GET)) {
-	$_SESSION['num1'] = $_GET['num1'];
-	$_SESSION['num2'] = $_GET['num2'];
+	//$_SESSION['name'] = $_GET['name'];
+	//$_SESSION['age'] = $_GET['age'];
+	//$_SESSION['sum'] = $_GET['sum'];
+	//$_SESSION['bot'] = $_GET['bot'];
+	$_SESSION['nums'] = $_GET;
     }
 ?>
 
-<form method="GET">
-    <input name="num1">
-    <input name="num2">
+
+<form metod="GET">
+    Имя: <input name="name">
+    Возраст: <input name="age">
+    Зарплата: <input name="sum">
+    Размер ботинок: <input name="bot">
     <input type="submit">
 </form>
-
-

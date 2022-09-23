@@ -42,6 +42,6 @@
 - Операции инкремента и декремента в PHP <https://www.code.mu/ru/php/book/prime/basis/increment-decrement/>
 - Введение в сессии в PHP
 - Сессии и формы в PHP <https://code.mu/ru/php/book/prime/seance/session/forms/>
-
+- Запись массивов в сессии PHP
 
 
